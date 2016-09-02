@@ -1,0 +1,11 @@
+BITMAP,Logo,Logo.png,393,50,1,1,1
+BITMAP,Player,player.png,75,42,4,1,4
+ANIM,PlayerAnimations,PlayerAnimations.txt
+BITMAP,Foreground,foreground.png,864,105,3,1,3
+ANIM,ForegroundAminations,ForegroundAnimations.txt
+BITMAP,DownPole,DownPole.png,102,289,1,1,1
+BITMAP,UpPole,UpPole.png,102,289,1,1,1
+BITMAP,Background,Background.png,864,769,1,1,1
+BITMAP,Foreroof,Foreroof.png,865,41,1,1,1
+FONT,GameFont,Demolition.otf, 21
+MUSIC,GameMusic,MagicalNight.ogg

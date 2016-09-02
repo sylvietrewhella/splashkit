@@ -44,6 +44,7 @@ void setup_tests()
     add_test("Timers", run_timer_test);
     add_test("Web Server", run_web_server_tests);
     add_test("Windows", run_windows_tests);
+    add_test("cave-escape", run_cave_escape);
 }
 
 int main()

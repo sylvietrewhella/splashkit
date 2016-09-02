@@ -10,6 +10,7 @@
 		16238ACC1D669A2E00A88176 /* rectangle_geometry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 16238ACA1D669A2E00A88176 /* rectangle_geometry.cpp */; };
 		16238ACD1D669A2E00A88176 /* rectangle_geometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 16238ACB1D669A2E00A88176 /* rectangle_geometry.h */; };
 		16238ACF1D669D4D00A88176 /* test_geometry.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 16238ACE1D669D4D00A88176 /* test_geometry.cpp */; };
+		3F6640BF1D792A6F004BBFE2 /* cave-escape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3F6640BE1D792A6F004BBFE2 /* cave-escape.cpp */; };
 		4129D23B1D653F6E000BFD0C /* physics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4129D2391D653F6E000BFD0C /* physics.cpp */; };
 		4129D23C1D653F6E000BFD0C /* physics.h in Headers */ = {isa = PBXBuildFile; fileRef = 4129D23A1D653F6E000BFD0C /* physics.h */; };
 		4129D23F1D65404C000BFD0C /* matrix_2d.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4129D23D1D65404C000BFD0C /* matrix_2d.cpp */; };
@@ -217,6 +218,7 @@
 		16238ACA1D669A2E00A88176 /* rectangle_geometry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = rectangle_geometry.cpp; sourceTree = "<group>"; };
 		16238ACB1D669A2E00A88176 /* rectangle_geometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rectangle_geometry.h; sourceTree = "<group>"; };
 		16238ACE1D669D4D00A88176 /* test_geometry.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_geometry.cpp; sourceTree = "<group>"; };
+		3F6640BE1D792A6F004BBFE2 /* cave-escape.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = "cave-escape.cpp"; sourceTree = "<group>"; };
 		4129D2391D653F6E000BFD0C /* physics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = physics.cpp; sourceTree = "<group>"; };
 		4129D23A1D653F6E000BFD0C /* physics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = physics.h; sourceTree = "<group>"; };
 		4129D23D1D65404C000BFD0C /* matrix_2d.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = matrix_2d.cpp; sourceTree = "<group>"; };
@@ -442,6 +444,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F6640A81D78F737004BBFE2 /* cave-escpape */ = {
+			isa = PBXGroup;
+			children = (
+				3F6640C01D792B6A004BBFE2 /* Resources */,
+				3F6640BE1D792A6F004BBFE2 /* cave-escape.cpp */,
+			);
+			name = "cave-escpape";
+			sourceTree = "<group>";
+		};
+		3F6640C01D792B6A004BBFE2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		4129D2381D653F57000BFD0C /* Physics Related */ = {
 			isa = PBXGroup;
 			children = (
@@ -562,6 +580,7 @@
 		942372221D1D668A0020CCE2 /* test */ = {
 			isa = PBXGroup;
 			children = (
+				3F6640A81D78F737004BBFE2 /* cave-escpape */,
 				94E6993C1D6F380300FBFA28 /* test_web_server.cpp */,
 				94444B401D644FE10059BF3B /* test_main.h */,
 				942372391D1D69850020CCE2 /* test_main.cpp */,
@@ -1020,6 +1039,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9423723B1D1D69880020CCE2 /* test_main.cpp in Sources */,
+				3F6640BF1D792A6F004BBFE2 /* cave-escape.cpp in Sources */,
 				4129D2421D65460F000BFD0C /* test_physics.cpp in Sources */,
 				94E6993B1D6F060300FBFA28 /* test_sprites.cpp in Sources */,
 				94DF47091D74132A00E3D9AF /* test_bundles.cpp in Sources */,
@@ -1089,7 +1109,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -1127,7 +1147,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 			};
